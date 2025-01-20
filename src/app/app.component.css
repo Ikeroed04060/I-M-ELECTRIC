@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+a{
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:focus{
+  outline: none;
+}
+
+.body{
+  min-height: 100vh;
+  background-color: #fff;
+}
+.header{
+  min-height: 100px;
+  padding: 5px;
+  background-color: #2f3190;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: #000 0 1px 8px, #75759a 0 1px 2px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo h2{
+  position: absolute;
+  top: 5px;
+  left: 120px;
+  font-size: 2.3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+  
+}
+.logo h3{
+  position: absolute;
+  top: 38px;
+  left: 120px;
+  font-size: 2.3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+}
+.logo img{
+  width: 15%;
+  border-radius: 5px;
+  margin-left: 8px;
+  box-shadow: #fff 0 1px 3px, #75759a 0 1px 2px;
+}
+.navbar a{
+
+  padding-right: 60px;
+  font-size: 1.2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffde59;
+  font-weight: bold; /* Hace el texto negrita */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:active,
+nav a:focus{
+  color: #fefefe;
+  transform: scale(1.05); /* Aumenta ligeramente al hacer clic*/
+}
+
+nav a:hover{
+  color: #fefefe;
+  transform: scale(1.1); 
+}
+.icons{
+  position: absolute;
+  font-size: 2.8rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  right: 5%;
+}
+
+.footer{
+  width: 100%;
+  background-color: #353470;
+  box-shadow: #000 0 1px 16px, #75759a 0 1px 2px;
+
+}
+
+.footer .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.footer .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .grupo-1 .box figure img{
+  width: 180px;
+  border-radius: 5px;
+  box-shadow: #fff 0 1px 10px, #75759a 0 1px 2px;
+}
+
+.footer .grupo-1 .box  h2{
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.footer .grupo-1 .box p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+svg{
+  display: inline-flex;
+  text-decoration: none;
+  width: 80px;
+  line-height: 50px;
+  height: 30px;
+  color: #fff;
+  position: center;
+  transition: all 300ms ease;
+  outline: none;
+}
+
+svg:hover{
+  color: #000;
+}
+
+.footer .grupo-2{
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  color: #fff;
+}
+
+footer .grupo-2 small{
+  font-size: 15px;
+}
+
+@media (max-width: 768px){
+
+
+  .header{
+    flex-direction: column;
+    margin-bottom: 20px; /* Ajusta este valor según el espacio que necesites */
+  }
+
+  .header a{
+    margin: 2px 3px;
+    border-radius: 10px;
+    background-color: #04022c;
+  }
+
+  a:hover{
+    background-color: transparent;
+    border: 2px solid rgb(127, 206, 255);
+    color: rgb(127, 206, 255)
+
+  }
+
+  .logo img{
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 8px;
+  }
+
+  .navbar a{
+    font-size: 65%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 15px;
+    color: #ffde59;
+  }
+
+  .logo h2,.logo h3{
+    font-size:100% ;
+    position: absolute;
+  }
+
+
+  .footer .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+
+  .footer .grupo-1 .box  h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .footer .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .footer .grupo-1 .box figure img{
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: #fff 0 1px 10px, #75759a 0 1px 2px;
+}
+
+
+}
+
+
+
+ 
+  
+  
+  

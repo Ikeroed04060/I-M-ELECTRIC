@@ -1,0 +1,212 @@
+html,
+body{
+  height: 100%;
+  background-color: #0b023b;
+}
+*{
+  box-sizing: border-box;
+
+}
+
+.nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .nosotros img{
+    width: 850px;
+    box-shadow: 0.5px 1px 15px 1px #0b023b;
+    margin-left: -px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  h1{
+    font-family: Fredoka;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+  }
+
+  .title h1{
+    font-size: 50px;
+    text-align: center;
+   }
+
+   .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+  }
+
+   .profile img{
+    width: 750px;
+    box-shadow: 0.5px 1px 15px 1px #0b023b;
+    margin-left: -px;
+    border-radius: 10px;
+   }
+
+   .profile-des .paragraph{
+    padding: 20px 20px;
+    font-size: 20px;
+    margin-bottom: 24px;
+    font-family: Fredoka;
+    text-align: center;
+  }
+
+  .profile-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+  }
+
+  .profile-team img{
+    width: 750px;
+    box-shadow: 0.5px 1px 15px 1px #0b023b;
+    margin-left: -px;
+    border-radius: 10px;
+   }
+
+   .profile-team-des .paragraph{
+    padding: 20px 20px;
+    font-size: 20px;
+    margin-bottom: 24px;
+    font-family: Fredoka;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 30px;
+  }
+  
+  .card{
+    position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Fredoka;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    max-width: 1000px;
+    padding: 30px 30px 30px 30px;
+    background: #f0f0f0 ;
+    border-radius: 24px;
+    background-color: #f0f0f0 ;
+    box-shadow: 0.5px 1px 15px 1px #0b023b;
+    margin-bottom: 40px;
+  }
+  .card .text1{
+    font-family: Fredoka;
+    font-size: 22px;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #2f3190;
+  }
+  .card .text2{
+    font-size: 16px;
+    font-weight: 900;
+    color: #0d0838;
+    
+  }
+  .card .paragraph{
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  svg{
+    display: inline-flex;
+    text-decoration: none;
+    width: 50px;
+    line-height: 20px;
+    height: 30px;
+    color: #04022c;
+    position: center;
+    transition: all 300ms ease;
+    outline: none;
+  }
+  
+  svg:hover{
+    color: #ffde59;
+  }
+  
+  @media(max-width:768px){
+    body{
+        padding: auto;
+    }
+
+    .nosotros img{
+      width: 360px;
+      position: relative;
+      justify-content: center;
+      margin-left: 5px;
+    }
+
+    .title h1{
+        font-size: 18px;
+       }
+       
+
+    .profile img{
+        width: 337px;
+      }
+
+    .profile-des .paragraph{
+        font-size: 15px;
+        margin-bottom: 24px;
+        font-family: Fredoka;
+      }
+
+    .profile-team img{
+        width: 337px;
+      }
+
+    .profile-team-des .paragraph{
+        font-size: 15px;
+        margin-bottom: 24px;
+        font-family: Fredoka;
+      }
+
+    
+      .card{
+        margin: 0 40px;
+        padding: 30px 30px 30px 30px;
+        min-width: 100%;
+        text-align: center;
+        flex-direction: column;
+        border-radius: 0;
+        background: #04022c;
+        color:#fff;
+        margin-bottom:20px; /* Ajusta este valor según el espacio que necesites */
+      }
+  
+      .card .text1{
+        margin: 1px;
+        font-size: 20px;
+        margin-bottom: 0px;
+        color: #75759a;
+      }
+      .card .text2,
+      .card .paragraph{
+        color: #fff;
+        margin: 20px 0 40px 0;
+      }
+  
+      svg{
+        color: #f0f0f0;
+      }
+}
