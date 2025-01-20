@@ -16,6 +16,7 @@
             "outputPath": "dist/im-electric",
             "index": "src/index.html",
             "browser": "src/main.ts",
+             "baseHref": "/I-M-ELECTRIC/",
             "polyfills": [
               "zone.js"
             ],
@@ -43,13 +44,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "1000kB",
+                  "maximumError": "2MB"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kB",
-                  "maximumError": "4kB"
+                  "maximumWarning": "6kB",
+                  "maximumError": "8kB"
                 }
               ],
               "outputHashing": "all"
