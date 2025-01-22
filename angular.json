@@ -13,10 +13,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/im-electric",
+            "outputPath": "dist/im-eletcric",
             "index": "src/index.html",
             "browser": "src/main.ts",
-             "baseHref": "/I-M-ELECTRIC/",
             "polyfills": [
               "zone.js"
             ],
@@ -32,12 +31,7 @@
               "src/styles.css",
               "node_modules/boxicons/css/boxicons.min.css"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -109,3 +103,4 @@
     "analytics": "f2751124-22cd-4cf1-a902-3903122b0691"
   }
 }
+
