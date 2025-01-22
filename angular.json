@@ -11,11 +11,11 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:application",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/im-eletcric",
+            "outputPath": "dist/im-electric",
             "index": "src/index.html",
-            "browser": "src/main.ts",
+            "main": "src/main.ts",
             "baseHref": "/I-M-ELECTRIC/",
             "polyfills": [
               "zone.js"
@@ -104,4 +104,3 @@
     "analytics": "f2751124-22cd-4cf1-a902-3903122b0691"
   }
 }
-
