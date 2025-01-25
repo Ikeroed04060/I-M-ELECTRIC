@@ -24,7 +24,7 @@ body{
   }
 
   h1{
-    font-family: Fredoka;
+    font-family: 'Fredoka Light', sans-serif;
   }
 
   .title{
@@ -57,7 +57,7 @@ body{
     padding: 20px 20px;
     font-size: 20px;
     margin-bottom: 24px;
-    font-family: Fredoka;
+    font-family: 'Fredoka Light', sans-serif;
     text-align: center;
   }
 
@@ -79,7 +79,7 @@ body{
     padding: 20px 20px;
     font-size: 20px;
     margin-bottom: 24px;
-    font-family: Fredoka;
+    font-family: 'Fredoka Light', sans-serif;
     text-align: center;
     margin-bottom: 40px;
   }
@@ -98,7 +98,7 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: Fredoka;
+    font-family: 'Fredoka Light', sans-serif;
     align-items: center;
     width: 80%;
     height: 100vh;
@@ -111,7 +111,7 @@ body{
     margin-bottom: 40px;
   }
   .card .text1{
-    font-family: Fredoka;
+    font-family: 'Fredoka Light', sans-serif;
     font-size: 22px;
     margin-right: 30px;
     text-transform: uppercase;
@@ -125,7 +125,7 @@ body{
     
   }
   .card .paragraph{
-    font-size: 14px;
+    font-size:20px;
     margin-bottom: 20px;
   }
   svg{
@@ -168,7 +168,7 @@ body{
     .profile-des .paragraph{
         font-size: 15px;
         margin-bottom: 24px;
-        font-family: Fredoka;
+        font-family: 'Fredoka Light', sans-serif;
       }
 
     .profile-team img{
@@ -178,7 +178,7 @@ body{
     .profile-team-des .paragraph{
         font-size: 15px;
         margin-bottom: 24px;
-        font-family: Fredoka;
+        font-family: 'Fredoka Light', sans-serif;
       }
 
     
